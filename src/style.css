@@ -1,0 +1,208 @@
+
+
+* {
+    box-sizing: border-box;
+  }
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+
+    margin: 0 auto; 
+  padding: 0;
+
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto; 
+    padding: 0 20px;
+   
+  }
+
+  .intro-container {
+
+    background: linear-gradient(202.06deg, #F2C917 14.42%, #FFB800 77.68%);
+border-radius: 4px;
+
+height: 74vh;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0.5em 0 3.6em;
+  }
+
+  .logo-text {
+   color: blanchedalmond;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 600;
+font-size: 2em;
+
+  }
+
+  .nav {
+    display: flex;
+    
+    height: 4em;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu {
+
+display: flex;
+list-style-type: none;
+  }
+
+  .link {
+
+    width: 7em;
+    
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 1em;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #00385F;
+
+  }
+
+.intro {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+  
+  .intro-text-block {
+    
+display: flex;
+flex-direction: column;
+width: 43%;
+    height: 100%;
+  }
+
+  .intro-pic {
+    width: 50%;
+    
+  }
+
+  .intro-text {
+    width: 90%;
+height: 70%;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 2.2em;
+line-height: 1.2em;
+letter-spacing: 0.2px;
+color: #00385F;
+  }
+
+  .sub-text {
+    
+    width: 22em;
+    height: 5em;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 2em;
+    letter-spacing: 0.2px;
+    color: #00385F;
+
+  }
+
+.intro-btn {
+  width: 10em;
+  height: 3.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.7em 1em;
+  gap: 0.5em;
+  background: #28E4C9;
+  border-radius: 16px;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-text {
+  width: 4em;
+height: 2em;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 1.5em;
+line-height: 1.2em;
+text-align: center;
+letter-spacing: 0.2px;
+color: #00385F;
+
+
+
+}
+
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 6vh;
+  background: linear-gradient(202.06deg, #F2C917 14.42%, #FFB800 77.68%);
+  border-radius: 4px;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.fa {
+  font-size: 1.5em;
+}
+
+
+.rs-logo {
+padding-left: 10px;
+  width: 40%;
+  
+
+}
+
+.git-text {
+  font-size: 2em;
+  
+  padding-right: 10px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5em;
+  line-height: 1.2em;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #00385F;
+  
+}
+.copy-date {
+
+  width: 4em;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5em;
+  line-height: 1.2em;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #00385F;
+  
+}
