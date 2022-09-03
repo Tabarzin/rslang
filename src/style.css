@@ -166,6 +166,10 @@ color: #00385F;
   text-decoration: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .fa {
   font-size: 1.5em;
 }
@@ -206,3 +210,112 @@ padding-left: 10px;
   color: #00385F;
   
 }
+
+.sprint-title {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 3.5em;
+    line-height: 1em;
+letter-spacing: 0.2px;
+color: #00385F;
+}
+
+.sprint {
+  background: #FDFDFD;
+border-radius: 4px;
+width: 100%;
+height: 100vh;
+}
+
+.sprint-text {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 1.4em;
+line-height: 1.5em;
+letter-spacing: 0.2px;
+color: #00385F;
+}
+
+.sprint-game-block {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  background: #2A95FF;
+  margin: 0 auto;
+  width: 70%;
+  height: 50%;
+  border-radius: 1em;
+}
+
+.select-text {
+
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 2em;
+line-height: 1.5em;
+letter-spacing: 0.2px;
+color: white;
+
+}
+
+.sprint-select-level {
+
+  width: 19em;
+  height: 2em;
+  font-family: 'Montserrat';
+  font-size: 2.1em;
+}
+
+
+.sprint-start-btn {
+
+  width: 8em;
+  height: 2em;
+  font-family: 'Montserrat';
+  font-size: 2.1em;
+  cursor: pointer;
+
+}
+
+
+ /* The Modal (background) */
+ .modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+} 
